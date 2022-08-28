@@ -1,0 +1,37 @@
+:root {
+  --white: #f9f9f9;
+  --yellow: #fec260;
+  --gray: #2b4865;
+}
+.container {
+  background: var(--white);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#sidebar {
+  background: var(--gray);
+  width: 25vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+#content {
+  background: var(--yellow);
+  width: 75vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
