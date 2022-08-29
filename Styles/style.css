@@ -285,7 +285,7 @@ body {
   justify-content: center;
   align-items: center;
   align-content: center;
-  margin: 0 auto;
+  margin: 5px auto;
 }
 
 .work__item p {
@@ -319,7 +319,7 @@ body {
   background-color: var(--white);
   padding: 2px;
   border-radius: 15px;
-  margin-bottom: 5px;
+  margin: 2px auto 5px auto;
   font-size: 14px;
   color: var(--gray);
   font-weight: bold;
@@ -333,9 +333,6 @@ body {
   padding: 5px 0 5px 10px;
   border-radius: inherit;
   animation: load 2s 0s;
-  -webkit-animation: load 2s 0s;
-  -moz-animation: load 2s 0s;
-  -o-animation: load 2s 0s;
 }
 
 .bar.front::before {
@@ -366,6 +363,8 @@ body {
   width: calc(100% - 10px);
 }
 
+/* Media Query */
+
 @media screen and (min-width: 240px) {
   #content .about {
     height: 50%;
@@ -375,7 +374,6 @@ body {
 
 @media screen and (min-width: 600px) {
   #sidebar {
-    /* background: blue; */
     width: 30vw;
   }
 
@@ -396,7 +394,6 @@ body {
 
 @media screen and (min-width: 900px) {
   #sidebar {
-    /* background: red; */
     width: 20vw;
   }
   .hero {
@@ -417,7 +414,6 @@ body {
 
 @media screen and (min-width: 1200px) {
   #sidebar {
-    /* background: green; */
     width: 16vw;
   }
   .hero {
